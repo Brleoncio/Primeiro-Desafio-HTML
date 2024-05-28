@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>O início</title>
+    </head>
+    <body>
+        <h1 id="inicio">Como criar minha primeira página HTML!</h1>
+        <hr />
+        <h2>Ìndice</h2>
+        <ol>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre Tags</a></li>
+            <li><a href="#atributos">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenados e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+        </ol>
+
+        <h6><a href="#referencia">Referências</a></h6> 
+
+        <h2 id="estrutura">Estrutura Básica do HTML</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A estrutura básica do HTML consiste nas tags <u><strong>'html', 'head' e 'body'</strong></u>, nessa ordem. Para abrir e fechar uma tag, necessitamos colocar os sinais <strong>(< >)</strong> para abrir e para fechar <strong>(<\ >)</strong>, notar que a diferença é que acrescentamos uma barra no sentido para direita entre os sinais de maior e menor para indicar o fechamento da tag.</p>
+        
+        <h2 id="tags">Falando sobre Tags</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A tag <strong>html</strong> consiste na página onde será desenvolvido o código, ou seja, todas as tags estarão dentro dela. Em suma, ela será a página em branco da web sem dados.</p>
+        <p>A tag <strong>head</strong> é onde se encontra o nome da página da web, o logo do website, links do CSS, tipos de letras e configurações gerais do site. Há algumas outras tags utilizadas com ela, mas a que mais é utilizada é a tag <strong>"title"</strong>, título da página.</p>
+        <p>A tag <strong>body</strong> é onde está toda a estrutura do site em si, é nele que é inserido o texto, imagens, links e tudo que é necessário para o usuário utilizar o website, ou seja, é nele que estão inseridas as mais variadas tags.</p>
+        <p>Em suma, existem as mais variadas Tags, que podem ser utilizadas de diversas formas e quase todas têm de ter uma abertura e um fechamento, menos alguma com a <strong>'input'</strong> e a <strong>'img'</strong>.</p>
+
+        <h2 id="atributos">Atributos das Tags</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>Atributos são propriedades que uma tag possa ter. Existem atributos globais, todas as tags podem ter e outras mais específicas que somente certas tags têm.</p>
+        <p>Entre os atributos globais temos a <strong>'id'</strong>, cujo objetivo é dar uma identificação a uma tag. Essa identificação é muito utilizada pelo Java para realizar edição nos textos e imagens das tags. Temos também o atributo <strong>'style'</strong> que servirá para editar diretamente o texto ou imagem no HTML, ou seja, utiliza comandos da CSS direto no HTML. Por fim, temos o atributo <strong>'class'</strong>, utilizado com a ligação para edição no CSS, ou seja, as tags com o mesmo atributo class são editadas mais rapidamente pelo CSS.</p>
+        <p>Os atributos especificos, que são mais utilizados são <strong>'type'</strong> com a tag 'input' e o <strong>'src'</strong> com a tag 'img'.</p>
+
+        <h2 id="textos">Textos</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>São as tags aonde vão os textos que os usuários vão ler ao entrar no site. Há diversas tags que podem ser utilizadas nos textos nos arquivos HTML. Temos o <strong>'h', vai do 1 ao 6, 'p', 'blockquote', 'strong', 'u', 'i', 'mark','sup', entre outras</strong>.</p>
+        <p>Segue abaixo o significado de algumas tags mais utilizadas nos textos.</p>
+        <ul>
+            <li>Tag <strong>'h'</strong> - utilizadas para títulos e subtítulos, sendo que a 'h1' tem a maior letra e vai diminuindo até chegar a 'h6'.</li>
+            <li>Tag <strong>'p'</strong> - referente ao parágrafo do texto.</li>
+            <li>Tag <strong>'blockquote'</strong> - geralmente usado para citações no texto.</li>
+            <li>Tag <strong>'strong'</strong> - utilizado para deixar partes do texto em negrito.</li>
+            <li>Tag <strong>'u'</strong> - utilizado para sublinhar partes do texto.</li>
+            <li>Tag <strong>'i'</strong> - utilizado para deixar partes do texto em itálico.</li>
+            <li>Tag <strong>'mark'</strong> - utilizado para grifar uma parte do texto.</li>
+            <li>Tag <strong>'sup'</strong> - utilizado para colocar um subscrito no texto.</li>
+        </ul>
+        <p>As tags acima são somente algumas que são comumente utilizadas há diversas, no site <strong>'w3schools'</strong> há uma lista com todas as tags utilizadas nos textos, o link se encontra na referência.</p>
+
+        <h2 id="listas">Listas Ordenados e Não Ordenadas</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>As <strong>Listas Ordenados e Não Ordenadas</strong> são utilizadas para organizar alguns dados na página da web ou direcionar para algum site externo ou uma parte específica do próprio site. São utilizadas 2 tags pai, a 'ol', para lista ordenada e a 'ul' para não ordenada, e a tag filha 'li', onde ficam os dados da lista.</p>
+        <p>Lista ordenada utilizamos a tag <strong>'ol'</strong> e a filha <strong>'li'</strong>, essa tag é exposta em numeral na página web, ou seja, tem uma ordem de prioridade na sua exposição.</p>
+        <p>Lista não ordenada utilizamos a tag <strong>'ul'</strong> e a filha <strong>'li'</strong>, essa tag teria marcadores não numéricos.</p>
+
+        <h2 id="links">Links</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>O link são termos que permiti navegar pela internet. No HTML, os links são tags que permitem navegar entre a página ou fora dela. A tag utilizada é a <strong>'a'</strong>.</p>
+        <p>A tag <strong>'a'</strong> é utilizada com o atributo <strong>'href'</strong>, nele é colocado o link do site, ainda queremos que o usuário visite. E antes da tag <strong>'a'</strong> de fechamento, coloca uma breve descrição do que seria o link.</p>
+        <p>Também utilizamos o atributo <strong>'target'</strong>, que abrira as opções <strong>'_blank'</strong>, o link abrira em uma nova página, ou a opção <strong>'_self'</strong>, o link abrira na mesma página.</p>
+        <p>Podemos também utilizar o atributo <strong>'title'</strong>, que é colocar uma sugestão como 'clique aqui' ou 'acesse aqui', quando se passa o mouse no link.</p>
+
+        <h5 id="referencia">Refêrencia</h5>
+        <ul>
+         <li><a href="https://www.youtube.com/watch?v=sj0p9O85AIg&list=PL2Fdisxwzt_cajoGVWTx44wM6Ht09QJ3A" title="clica aqui" target="_blank"> Programação Web - Curso de HTML completo</a></li>   
+         <li><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" title="clica aqui" target="_blank">Curso completo de HTML 5 - Curso em Video</a></li>
+         <li><a href="https://www.dio.me/curso-html" title="clica aqui" target="_blank">Curso DIO Formação HTML Developer</a></li>
+         <li><a href="https://www.w3schools.com/TAGS/ref_html_browsersupport.asp" title="clica aqui" target="_blank">Dicas de Tags HTML</a></li>
+        </ul>
+
+        <small><a href="#inicio">Voltar</a></small>
+    </body>
+</html>
